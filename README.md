@@ -14,7 +14,7 @@ Dependency management with Ivy.
 
 The following is an example of using `commons-lang` and `guava`:
 
-```
+```javascript
 // load script.
 load("./ivy.js");
 
@@ -27,7 +27,7 @@ Ivy.load([
 
 Then, you can use external library :
 
-```
+```javascript
 var StringUtils = Java.type('org.apache.commons.lang3.StringUtils');
 print('[' + StringUtils.trim('  XX  ') + ']');
 
